@@ -1,0 +1,116 @@
+body {
+    height: 100vh;
+    color: white;
+    background-color: #121212;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.close, input[type='checkbox']{
+    cursor: pointer;
+}
+  
+input[type='checkbox'] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#search-input {
+    width: 15rem;
+    height: 45px;
+    font-size: 16px;
+    padding: 0px 20px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: white;
+}
+
+::-ms-input-placeholder {
+    color: white;
+}
+
+#addBtn {
+    height: 40px;
+    width: 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+.item-box {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    width: 25rem;
+    height: 25rem;
+}
+
+#itemList {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 20px;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.fa-trash {
+    color: red;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.item-name {
+    margin-right: 14rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
